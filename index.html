@@ -3,18 +3,40 @@
         <meta charset="UTF-8">
         <title>welcome</title>
         <style>
+            body {
+                text-align: center;
+            }
+            h1 {
+                justify-content: center;
+                display: flex;
+                margin-top: 1em;
+                background-color: slategray;
+                padding-top: 0.5em;
+                padding-bottom: 0.7em;
+                color: white;
+            }
+
             div {
-                
+                margin: 5rem 15rem;
+                background-color: rgb(188, 243, 212);
+                padding: 0.5em 0.5em;
+                /* width: 40%; */
+                border: 2px solid seagreen;
+
+
             }
             ul {
+                background-color: rgb(247, 197, 162);
                 list-style: none;
+                padding: 0.7em;
+                border: 2px solid white;
             }
         </style>
     </head>
     <body>
         <h1>Hello world!!!</h1>
         <div>
-            <form>
+            <form type="GET" action="/action">
                 <ul>
                     <li>
                         <label for="first_name">First name:</label>
@@ -41,4 +63,5 @@
         </div>
         
     </body>
+    
 </html>
